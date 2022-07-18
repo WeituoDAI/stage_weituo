@@ -11,5 +11,6 @@ and use the feature selection(choose the most important features)
 3.ReLU-DNN: Deep ReLU Networks using Aletheia Unwrapper and Sparsification (Sudjianto, et al. 2020)
 https://arxiv.org/abs/2011.04041#
 use ReLU activation function in the deep neural network.
-we partition all input data into several segments (depend on if the instance satisfies some ReLU functions or not)
-in each segment, the model is in fact linear, thus more interpretable.
+Unwrapping:
+	we partition all input data into several segments (depend on if the instance satisfies some ReLU functions or not)
+	in each segment, the model is in fact linear, thus more interpretable.
